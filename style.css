@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Jost:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Jost:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg, rgb(4, 196, 255) 0%, rgb(11, 81, 231) 35%, rgb(124, 26, 252) 100%)
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 20%;
+}
+
+.cabecalho-img {
+    height: 95px;
+    align-items: center;
+}
+
+.luiz {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    align-items: center;
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+    width: 100px;
+    left: 230px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500; font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0.5px 0.5px #000;
+
+}
+
+.conteudo{
+margin-bottom: 20px;
+border-top: 1px solid #FFFFFF;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: 'Jost', sans-serif;
+    margin-left: 7%;
+
+}
+    .conteudo-principal-escrito-grande {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600px;
+        font-size: 64px;
+
+    }
+        .landing {
+        color: #FFFFFF;
+     }
+
+     .conteudo-principal-escrito-medio {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 112.5%
+     }
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 50%;
+    font-family: 'Jost', sans-serif; color: #000;
+    position: absolute;
+    width: 680px;
+    height: 50%;
+    top: 160px;
+}
+
+.conteudo-secundario-botao {
+    background-color: #00E0FF;
+    color: #FFFFFF;
+    width: 388px;
+    height: 83px;
+    left: 815px;
+    top: 366px;
+    border-radius: 110px;
+    border: none;
+    font-family: 'Jost', sans-serif; color: #FFFFFF;
+    font-weight: 600; font-size: 36px;
+    box-shadow: 4px 5px 4px #000;
+    
+}
+
+.conteudo-secundario-botao:hover {
+    background-color: #0094FF;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    line-height: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 75px;
+    color: #000;
+}
+    .rodape:hover {
+        color: #FFFFFF;
+    }
